@@ -1,13 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <style>
-    div {
-      background-color: #FFF4A3;
-      color: red;
-    }
-    </style>
-    <body>
-    <div>
-      <h2>มหาวิทยาลัยธรรมศาสตร์</h2>
-      <p>สีประจำมหาวิทยาลัยธรรมศาสตร์คือ สีเหลืองแดง</p>
-      <p>คติประจำใจของชาวธรรมศาสตร์คือ ฉันรักธรรมศาสตร์ เพราะ ธรรมศาสตร์สอนให้ฉันรักปะชาชน</p>
-    </div>
-    </body>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+thead th {
+    background-color: #5ba1d5; /* Blue color */
+    color: white;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ชื่อ-นามสกุล</th>
+                <th>รหัสนักศึกษา</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ภูมิภากร โกเมนไปรรินทร์</td>
+                <td>6609650582</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
